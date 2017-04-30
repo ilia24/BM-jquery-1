@@ -1,3 +1,7 @@
 $(function() {
-$('.status').text("It's so brigsssht in here!");
+
+$('.plate').on('click', function() {
+  $('.status').text("It's so DARK in here!");
+
+})
 });
